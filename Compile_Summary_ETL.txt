@@ -1,0 +1,7 @@
+✅ Extracted 10 rows, 9 columns from the xlsx
+✅ Found and fixed the 1 missing amount (TXN004)
+✅ Transformation complete
+✅ Status distribution: 8 COMPLETED, 1 PENDING, 1 FLAGGED
+✅ Trans type: 8 DEBIT, 2 CREDIT
+✅ Staged 10 rows → cleaned_transactions.csv
+✅ ETL pipeline finished successfully

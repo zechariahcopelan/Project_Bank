@@ -1,0 +1,23 @@
+Built a legacy-to-cloud data migration pipeline this week. Here's the breakdown:
+
+📦 SOURCE: Messy on-prem SAS/Alteryx export with mixed date formats, null values, casing inconsistencies, and typos
+
+⚙️ TRANSFORM: Python/Pandas ETL pipeline with automated data quality scoring, typo correction, date standardization, and audit trail logging
+
+☁️ LOAD: Microsoft Azure SQL Database (serverless) via pyodbc — verified clean in SSMS
+
+📊 VISUALIZE: Power BI dashboard connected live to Azure SQL showing transaction volume by region, debit/credit split, and flagged transactions
+
+📄 DOCUMENT: Full enterprise migration doc covering architecture, scope, findings, and recommendations
+
+Result: 10 records. 90% data quality pass rate. 1 flagged wire transfer caught by the pipeline. Full audit trail on every row.
+
+Small dataset. Real architecture. Production-ready patterns.
+
+Stack: Python · Pandas · Azure SQL · Power BI · SSMS · pyodbc
+
+#DataEngineering #Azure #ETL #PowerBI #Python #CloudMigration #MicrosoftAzure #DataQuality
+
+rec 7061
+
+10392(newer)
